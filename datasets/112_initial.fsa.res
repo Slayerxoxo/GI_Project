@@ -1,0 +1,6 @@
+1,w0,s2
+2,w0w0,s2s0
+3,w0w0w0,s2s0s0
+4,w0w0w0w0w0w0,s2s0s0s0s0s0
+5,w0w0w0w0w0w0w0,s0s1s0s1s0s2s0
+6,w0w0w0w0w0w0w0w0w0,s0s1s0s1s0s1s0s2s0

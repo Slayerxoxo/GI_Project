@@ -1,0 +1,9 @@
+1,w0w0w0,s2s0s1
+2,w0w0w0w0w0w0w0w0w1w0w0,s1s0s1s0s1s0s1s0s2s0s1
+3,w0w0w0w0w0w0w0w1w1w1w0w0w1,s0s1s0s1s0s1s0s2s0s1s0s1s0
+4,w0w0w0w0w0w0w1w1w1w0w1w1w0w0w0w0,s1s0s1s0s1s0s2s0s1s0s1s0s1s0s1s0
+5,w0w0w1w0w0w0w0,s1s0s2s0s1s0s1
+6,w0w0w1w1w1w0w0,s1s0s2s0s1s0s1
+7,w0w1w0,s0s2s0
+8,w1,s2
+9,w1w1,s2s0

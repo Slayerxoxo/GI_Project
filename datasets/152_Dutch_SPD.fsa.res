@@ -1,0 +1,10 @@
+1,w0w0w0w0w0,s0s1s0s2s0
+2,w0w0w2w0w0,s1s0s1s2s0
+3,w0w0w2w1w3w0w2w2w0w2,s1s0s1s1s1s0s1s2s0s1
+4,w1w0w1,s2s0s1
+5,w1w2,s2s1
+6,w2w0w1,s2s0s1
+7,w2w2,s2s1
+8,w3,s2
+9,w3w0w0w0w0w2w0w1,s1s1s0s1s0s2s0s1
+10,w3w0w0w1,s1s2s0s1
