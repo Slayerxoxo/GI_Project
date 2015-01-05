@@ -1,4 +1,4 @@
-1,s2,w0
+1,w0,s2
 2,w0w0w0w0w2w0w0w1w1w0w1,s1s0s1s0s1s1s0s1s2s0s1
 3,w0w0w1,s2s0s1
 4,w1,s2

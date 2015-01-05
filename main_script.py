@@ -40,6 +40,9 @@ if __name__ == "__main__":
     ###############################
     #   Variables de traitement   #
     ###############################
+    # True pour lancer la fonction False sinon
+    test_format = True
+    test_pos_tonique = True
 
 
 
@@ -53,17 +56,34 @@ if __name__ == "__main__":
     affichage(1)
 
     dataset_dic = {}
-    file_dataset_cleaning = codecs.open("datasets_cleaning.txt", "w", "utf-8")
     for dataset_name in glob.glob("datasets/*"):
         file_dataset = codecs.open(dataset_name, "r", "utf-8")
         tmp_lst = []
         for lines in file_dataset.readlines():
             tmp_couple = (lines.split(",")[1].split(",")[0],lines.split(",")[2])
             tmp_lst.append(tmp_couple)
-        dataset_dic[dataset_name.split("/")[-1].split(".")[-2]] = tmp_lst
+        dataset_dic[dataset_name.split("/")[-1].split(".")[-3]] = tmp_lst
         file_dataset.close()
-    file_dataset_cleaning.close()
+
 
     affichage(0)
 
-    
+
+    ################################
+    #    Tests sur les données     #
+    ################################
+
+    ### TEST FORMAT ###
+    # Vérification que tous les datasets sont bien de la forme input = w..., output = s...
+
+    if test_format == True:
+        affichage(2)
+        test_format_funct(dataset_dic)
+        affichage(0)
+
+    ### TEST SUR LA POSITION DE LA TONIQUE ###
+    # On cherche à déterminer ou est située la tonique dans un mot
+
+    if test_pos_tonique == True:
+        test_pos_tonique_funct(dataset_dic)
+
