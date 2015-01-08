@@ -86,5 +86,5 @@ def test_pos_tonique_funct(dataset_dic):
                     else:
                         tmp_dic[pos/2] = 1
     for element in tmp_dic.keys():
-        print tmp_dic[element], " de tonique en position ",element
+        print tmp_dic[element], " toniques situées en position ",element
     affichage(0)

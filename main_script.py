@@ -24,15 +24,6 @@ from functions import *
 #                                                                                                        #                                                                              #
 ##########################################################################################################
 
-#                           IDEES
-# - vérifier que tous les dataset obeissent bien aux consignes
-# - faire des stats :
-# 	- % de position de la tonique par rapport à la taille de la phrase
-# 	- % de l'existence de la seconde tonique en fonction de la taille de la phrase
-# 	- % position de la seconde tonique quand il y en a une
-# 	- % d'apparition de la seconde tonique
-# 	- % combien y a t'il en moyenne de tonique et de seconde tonique dans le phrase
-
 
 if __name__ == "__main__":
 
