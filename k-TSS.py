@@ -48,7 +48,7 @@ def sample2k_TSS(S, k) :
 			len(x) >= k}
 	return Si, I, F, T, C
 
-sample = {"a", "aa", "abba", "abbbba"}
+sample = {"bc", "dc", "ecebc", "edc", "eebc", "eeebc", "fceecbc", "fdcc", "fecd", "hbcf"}
 print("Sample : ", sample)
 k3_TSS = sample2k_TSS(sample, 3)
 print("Machine : ", k3_TSS)
